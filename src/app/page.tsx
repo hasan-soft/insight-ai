@@ -3,8 +3,33 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-     <h1>Hello next.js</h1>
-     <p>This is developer one Setup</p>
+      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-around py-32 px-16 bg-white dark:bg-black sm:items-start">
+        <Image
+          className="dark:invert"
+          src="/next.svg"
+          alt="Next.js logo"
+          width={100}
+          height={20}
+          priority
+        />
+        <h1 className="text-3xl font-bold">Welcome to Insight AI</h1>
+      </main>
     </div>
   );
 }
+
+/**
+ * {
+"id": "politics/2025/oct/23/reform-only-black-branch-chair-quits-over-harmful-migration-debate",
+"type": "article",
+"sectionId": "politics",
+"sectionName": "Politics",
+"webPublicationDate": "2025-10-23T11:00:39Z",
+"webTitle": "Reform’s only Black branch chair quits over ‘harmful’ migration debate",
+"webUrl": "https://www.theguardian.com/politics/2025/oct/23/reform-only-black-branch-chair-quits-over-harmful-migration-debate",
+"apiUrl": "https://content.guardianapis.com/politics/2025/oct/23/reform-only-black-branch-chair-quits-over-harmful-migration-debate",
+"isHosted": false,
+"pillarId": "pillar/news",
+"pillarName": "News"
+},
+ */
