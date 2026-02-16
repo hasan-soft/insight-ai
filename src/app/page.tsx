@@ -17,19 +17,3 @@ export default function Home() {
     </div>
   );
 }
-
-/**
- * {
-"id": "politics/2025/oct/23/reform-only-black-branch-chair-quits-over-harmful-migration-debate",
-"type": "article",
-"sectionId": "politics",
-"sectionName": "Politics",
-"webPublicationDate": "2025-10-23T11:00:39Z",
-"webTitle": "Reform’s only Black branch chair quits over ‘harmful’ migration debate",
-"webUrl": "https://www.theguardian.com/politics/2025/oct/23/reform-only-black-branch-chair-quits-over-harmful-migration-debate",
-"apiUrl": "https://content.guardianapis.com/politics/2025/oct/23/reform-only-black-branch-chair-quits-over-harmful-migration-debate",
-"isHosted": false,
-"pillarId": "pillar/news",
-"pillarName": "News"
-},
- */
